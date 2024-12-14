@@ -8,7 +8,9 @@ A customizable countdown timer for Flutter apps. The `SimpleTimerCountDown` widg
 
 If you find this package helpful, consider buying us a coffee! 
 
-[![Buy Me A Coffee](https://github.com/user-attachments/assets/40372fba-f86c-4930-be63-66f1f49454ec)](https://www.buymeacoffee.com/adarshsiiiiingh)
+<a href="https://www.buymeacoffee.com/adarshsiiiiingh">
+  <img src="https://github.com/user-attachments/assets/40372fba-f86c-4930-be63-66f1f49454ec" alt="Buy Me A Coffee" width="240" height="60"/>
+</a>
 
 ---
 
@@ -117,7 +119,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 Love what you see?  
 
-[![Buy Me A Coffee](https://github.com/user-attachments/assets/40372fba-f86c-4930-be63-66f1f49454ec)](https://www.buymeacoffee.com/adarshsiiiiingh)
+<a href="https://www.buymeacoffee.com/adarshsiiiiingh">
+  <img src="https://github.com/user-attachments/assets/40372fba-f86c-4930-be63-66f1f49454ec" alt="Buy Me A Coffee" width="240" height="60"/>
+</a>
 
 Your support helps us keep building awesome tools like this!
 
