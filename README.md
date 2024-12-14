@@ -30,7 +30,7 @@ Add this to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  count_down_timer: ^0.0.1
+  count_down_timer: ^<latest_version>
 ```
 
 Then run:
