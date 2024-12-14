@@ -1,3 +1,9 @@
+## [1.0.5] - 2024-12-21
+### Added
+- Added comments
+### Updated
+- README documentation for better clarity.
+
 ## [1.0.4] - 2024-12-21
 ### Updated
 - Changelog documentation
