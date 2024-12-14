@@ -4,7 +4,8 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   // Test to check if the onStarted callback is triggered when the timer starts.
-  testWidgets('SimpleTimerCountDown triggers onStarted when timer starts', (tester) async {
+  testWidgets('SimpleTimerCountDown triggers onStarted when timer starts',
+      (tester) async {
     bool startedCalled = false;
 
     // Pump the SimpleTimerCountDown widget with a duration of 5 seconds and onStarted callback.
@@ -13,7 +14,8 @@ void main() {
         home: SimpleTimerCountDown(
           duration: const Duration(seconds: 5),
           onStarted: () {
-            startedCalled = true; // Set startedCalled to true when onStarted is triggered.
+            startedCalled =
+                true; // Set startedCalled to true when onStarted is triggered.
           },
         ),
       ),
@@ -24,7 +26,8 @@ void main() {
   });
 
   // Test to check if the onChange callback is triggered during the countdown at each interval.
-  testWidgets('SimpleTimerCountDown triggers onChange during countdown', (tester) async {
+  testWidgets('SimpleTimerCountDown triggers onChange during countdown',
+      (tester) async {
     final List<Duration> changes = [];
 
     // Pump the SimpleTimerCountDown widget with a duration of 3 seconds and onChange callback.
@@ -33,7 +36,8 @@ void main() {
         home: SimpleTimerCountDown(
           duration: const Duration(seconds: 3),
           onChange: (remaining) {
-            changes.add(remaining); // Add the remaining time to the changes list on each update.
+            changes.add(
+                remaining); // Add the remaining time to the changes list on each update.
           },
         ),
       ),
@@ -50,7 +54,8 @@ void main() {
   });
 
   // Test to check if the onFinished callback is triggered when the timer reaches zero.
-  testWidgets('SimpleTimerCountDown triggers onFinished when timer ends', (tester) async {
+  testWidgets('SimpleTimerCountDown triggers onFinished when timer ends',
+      (tester) async {
     bool finishedCalled = false;
 
     // Pump the SimpleTimerCountDown widget with a duration of 3 seconds and onFinished callback.
@@ -59,7 +64,8 @@ void main() {
         home: SimpleTimerCountDown(
           duration: const Duration(seconds: 3),
           onFinished: () {
-            finishedCalled = true; // Set finishedCalled to true when onFinished is triggered.
+            finishedCalled =
+                true; // Set finishedCalled to true when onFinished is triggered.
           },
         ),
       ),
@@ -73,14 +79,16 @@ void main() {
   });
 
   // Test to check if the custom builder renders the widget correctly with the remaining time.
-  testWidgets('SimpleTimerCountDown renders custom builder correctly', (tester) async {
+  testWidgets('SimpleTimerCountDown renders custom builder correctly',
+      (tester) async {
     // Pump the SimpleTimerCountDown widget with a custom builder to display the remaining time.
     await tester.pumpWidget(
       MaterialApp(
         home: SimpleTimerCountDown(
           duration: const Duration(seconds: 3),
           builder: (context, remaining) {
-            return Text('Remaining: ${remaining.inSeconds}'); // Display remaining time in seconds.
+            return Text(
+                'Remaining: ${remaining.inSeconds}'); // Display remaining time in seconds.
           },
         ),
       ),
@@ -95,7 +103,8 @@ void main() {
   });
 
   // Test to check if the SimpleTimerCountDown works correctly with a custom interval.
-  testWidgets('SimpleTimerCountDown works with custom interval', (tester) async {
+  testWidgets('SimpleTimerCountDown works with custom interval',
+      (tester) async {
     final List<Duration> changes = [];
 
     // Pump the SimpleTimerCountDown widget with a duration of 6 seconds and a custom interval of 2 seconds.
@@ -105,7 +114,8 @@ void main() {
           duration: const Duration(seconds: 6),
           interval: const Duration(seconds: 2),
           onChange: (remaining) {
-            changes.add(remaining); // Add the remaining time to the changes list at each interval.
+            changes.add(
+                remaining); // Add the remaining time to the changes list at each interval.
           },
         ),
       ),
