@@ -1,6 +1,6 @@
 name: simple_timer_count_down
 description: "Simple timer count down. Easy to use and simple to implement."
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/adarshneeds/simple_timer_count_down
 
 license: MIT

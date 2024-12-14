@@ -1,3 +1,15 @@
+## [1.0.4] - 2024-12-21
+### Updated
+- Changelog documentation
+
+## [1.0.3] - 2024-12-21
+### Updated
+- README documentation for better clarity.
+
+## [1.0.2] - 2024-12-21
+### Updated
+- README documentation.
+
 ## [1.0.1] - 2024-12-14
 ### Added
 - Initial release of the `SimpleTimerCountDown` package.
@@ -10,13 +22,3 @@
   - `builder` property for rendering custom UI during the countdown.
 - Proper lifecycle management:
   - Automatic cleanup of timers when the widget is disposed.
-
-
-  ## [1.0.2] - 2024-12-21
-  ### Updated
-  - README documentation.
-
-  ## [1.0.3] - 2024-12-21
-  ### Updated
-  - README documentation for better clarity.
-
