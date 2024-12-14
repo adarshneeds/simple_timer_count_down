@@ -121,6 +121,4 @@ Your support helps me keep building awesome tools like this!
 ---
 
 Start building with `SimpleTimerCountDown` today!
-```
 
-This layout highlights the support section with stylish badges and makes it more appealing. Let me know if you need additional tweaks!
