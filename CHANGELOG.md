@@ -1,3 +1,7 @@
+## [1.0.7] - 2024-12-21
+### Updated
+- README documentation.
+
 ## [1.0.6] - 2024-12-14
 ### Added
 - Added example file
